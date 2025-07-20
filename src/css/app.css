@@ -1,0 +1,160 @@
+
+#mainNavContainer{
+    /*border-bottom: 2px solid #EDEEF1;*/
+}
+
+#upperNav {
+    height:56px;
+    /*background-color:#f7f9fa;*/
+    padding:15px;
+}
+
+#networks {
+    background-color:#f7f9fa;
+    border: none;
+    margin-right: 10px;
+    color: #3F5663;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+    letter-spacing: 0.05em;
+    outline: none;
+}
+
+#languages {
+    background-color:#f7f9fa;
+    border: none;
+    margin-right: 10px;
+    color: #3F5663;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+    letter-spacing: 0.05em;
+    outline: none;
+}
+
+.upperNavText.nav-link {
+
+    padding: 0 10px;
+}
+
+#upperNavSlogan{
+    margin-left:25px;
+    color: #3F5663;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+    letter-spacing: 0.05em;
+}
+
+#mainNav{
+    height: 75px;
+    margin-top: 56px;
+    /*background-color: #fff;*/
+
+    white-space: nowrap;
+}
+
+.mainNavText{
+    padding: 1.8rem 1rem !important;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #e74f3a;
+/* identical to box height, or 143% */
+    text-align: center;
+    letter-spacing: 0.05em;
+    /*border-bottom: 2px solid #fff;*/
+}
+
+.mainNavText:hover {
+   /* color: #0E161C;*/
+}
+
+.mainNavText.nav-link{
+    margin-right: 18px;
+    padding: 7px 18px 7px 0;
+    background: rgba(255,255,255,.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 3%), inset 0 2px 1px rgb(255 255 255 / 80%), inset 0 40px 40px rgb(255 255 255 / 24%), inset 0 -3px 6px rgb(255 255 255 / 24%), inset 0 -6px 18px rgb(255 255 255 / 24%), inset 0 6px 12px rgb(255 255 255 / 40%);
+    backdrop-filter: blur(40px);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: grid;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #e74f3a;
+    white-space: nowrap;
+    transition: all .3s ease-in-out;
+}
+.red-buttons {
+    color: #e74f3a;
+}
+
+.nav-link{
+    color: #e74f3a !important;
+}
+
+#mainNavSearch {
+    border-radius: 0;
+    border-bottom: 2px solid #3f5663;
+    flex-flow: nowrap;
+}
+
+#navSearchField{
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+    letter-spacing: 0.05em;
+    /* Frequently Used/Text/Secondary Text - Grey 700 */
+}
+
+#searchIcon{
+    margin-left: 3px;
+}
+
+#loginBtn{
+    border-left: 1px solid  #9ba8ae;;
+}
+
+#helpBtn{
+    border-left: 1px solid  #9ba8ae;;
+}
+
+.navbar-collapse.collapsing{
+    background-color: white;
+}
+.navbar-collapse.collapse.show{
+    background-color: white;
+    z-index: 1000000;
+}
+
+.mainNavText:hover{
+    background: #fff;
+    border-color: #fff;
+}
+
+@media (max-width: 770px){
+    #upperNavSlogan{
+        display: none;
+    }
+}
+

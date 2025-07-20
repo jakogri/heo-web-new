@@ -1,0 +1,220 @@
+#progressBarLabel{
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #70808a;
+}
+
+#progressBarLabelStart{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 28px;
+    /* identical to box height, or 165% */
+    letter-spacing: 0.005em;
+    /* Frequently Used/Text/Primary Text - Grey 900 */
+
+color: #0E161C;
+}
+
+.buttonCol{
+    padding-bottom: 15px;
+}
+
+.cardButtons{
+    font-family: 'Poppins', sans-serif;
+    /*height: 70px;*/
+    border: 1.5px solid #0E161C;
+    border-radius: 4px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 28px;
+    /* identical to box height, or 165% */
+
+    letter-spacing: 0.005em;
+    color: #0E161C;
+}
+
+#rewardsBtn{
+    padding: 21px;
+    white-space: nowrap;
+}
+
+#acceptingBtn{
+    padding: 10px;
+}
+
+#currencyName{
+    margin-top: -15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+
+    /* Frequently Used/Text/Primary Text - Grey 900 */
+
+    color: #0E161C;
+}
+
+#donateBtn{
+    padding: 21px;
+    background: #EF4E36;
+    border: 1.5px solid #EF4E36;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+#editBtn{
+    padding: 21px;
+    background: #588157;
+    border: 1.5px solid #588157;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+.card-title.h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.005em;
+    /* Frequently Used/Text/Primary Text - Grey 900 */
+    color: #0E161C;
+}
+.card-body{
+    padding-top: 0 !important;
+}
+
+.card {
+    background-color: rgba(255,255,255,.1) !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03), inset 0px 2px 1px rgba(255, 255, 255, 0.8), inset 0px 40px 40px rgba(255, 255, 255, 0.24), inset 0px -3px 6px rgba(255, 255, 255, 0.24), inset 0px -6px 18px rgba(255, 255, 255, 0.24), inset 0px 6px 12px rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    transform: translate3d(0, 0, 0);
+    padding: 38px 38px 0;
+    border-radius: 30px  !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.card-text{
+    min-height: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143.32%;
+    /* or 20px */
+    letter-spacing: 0.005em;
+
+    color: #3F5663;
+}
+
+.card-text .h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #3F5663;
+}
+#readMore{
+    font-style: italic;
+    text-decoration: underline;
+    color: #98abb6;
+    font-size: 13px;
+}
+
+#cardLink {
+    color: #0e161c;
+    width: 100%;
+}
+
+.card-img{
+    max-height: 225px;
+}
+
+#picColumn{
+    padding: 0;
+}
+
+.progress-bar {
+    background-color: #588157 !important;
+}
+
+.progress {
+    background-color: #f7f9fa !important;
+    height: .75rem !important;
+    border-radius: .5rem !important;
+    border-top: 1px solid #edeef1;
+    border-top-style: inset;
+}
+
+#closeCampaign{
+    background-color: #588157;
+    border-color: #588157;
+    float: right;
+}
+
+#cancelClose{
+    background-color: #E63C36;
+    border-color: #E63C36;
+    float: left;
+}
+
+@media (max-width: 530px) {
+    #buttonsRow{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 775px){
+    #picColumn{
+        min-width: 100%;
+    }
+    .card-img{
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 500px) {
+    #editBtn{
+        min-width: 120px;
+        margin-top: 10px;
+    }
+    #rewardsBtn{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 357px) {
+    #rewardsBtn{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 357px) {
+    #rewardsBtn{
+        padding-top: 20px;
+    }
+}
